@@ -31,6 +31,9 @@ gem 'jbuilder', '~> 2.5'
 # Use Font-Awesome web fonts and stylesheets
 gem 'font-awesome-rails'
 
+# Use Bootstrap
+gem 'bootstrap', '~> 4.0.0.alpha3'
+
 gem 'slick_rails'
 
 group :development, :test do
