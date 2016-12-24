@@ -1,0 +1,23 @@
+<h1>hello world.</h1>
+<div class="carousel" style="height:50%;width:80%;">
+  <div><img src="http://www.identeyouth.us/uploads/1/9/0/0/19009993/7975451_orig.jpg" /></div>
+  <div><img src="http://www.identeyouth.us/uploads/1/9/0/0/19009993/7562782_orig.jpg" /></div>
+  <div><img src="http://www.identeyouth.us/uploads/1/9/0/0/19009993/8145888_orig.jpg" /></div>
+  <div><img src="http://www.identeyouth.us/uploads/1/9/0/0/19009993/5135923_orig.jpg" /></div>
+  <div><img src="http://www.identeyouth.us/uploads/1/9/0/0/19009993/8987085_orig.jpg" /></div>
+</div>
+
+<script>
+$(document).ready(function(){
+  $('.carousel').slick({
+    centerMode: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    fade: true,
+    cssEase: 'linear',
+    accessibility: true,
+    adaptiveHeight: true,
+    focusOnSelect: true
+  });
+});
+</script>
