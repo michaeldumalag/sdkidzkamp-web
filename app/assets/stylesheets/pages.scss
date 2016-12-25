@@ -1,3 +1,44 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  display: flex;
+  justify-content: center;
+  .container {
+    width: 80%;
+    height: 100%;
+    background-color: #007CA5;
+    border: solid 2px red;
+    .wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      nav {
+        border: solid 2px red;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        #logo {
+          width: 500px;
+          height: 150px;
+        }
+      }
+      .carousel {
+        width: 95% !important;
+        .carousel-img{
+          max-width: 1600px;
+          min-width: 480px;
+          max-height: 750px;
+          min-height: 320px;
+          overflow: hidden;
+        }
+      }
+      #join-fun {
+        font-size: 3em;
+        font-weight: bolder;
+        font-stretch: expanded;
+      }
+    }
+  }
+}

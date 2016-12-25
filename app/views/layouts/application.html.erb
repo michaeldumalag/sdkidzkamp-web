@@ -9,6 +9,18 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container">
+      <div class="wrapper">
+        <nav>
+          <a>Home</a>
+          <a>About Us</a>
+          <%= image_tag("logo.png", id: "logo") %>
+          <a>Forms</a>
+          <a>Contact Us</a>
+        </nav>
+      </div>
+
+      <%= yield %>
+    </div>
   </body>
 </html>

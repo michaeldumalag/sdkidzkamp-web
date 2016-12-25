@@ -33,6 +33,7 @@ gem 'font-awesome-rails'
 
 # Use Bootstrap
 gem 'bootstrap', '~> 4.0.0.alpha3'
+gem 'rails-assets-tether', '>= 1.1.0'
 
 gem 'slick_rails'
 
