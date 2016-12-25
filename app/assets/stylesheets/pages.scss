@@ -1,20 +1,27 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@font-face {
+  font-family: Playtime;
+  src: url("Playtime.otf") format("opentype");
+}
+
 body {
   display: flex;
   justify-content: center;
+  overflow: hidden;
   .container {
-    width: 80%;
-    height: 100%;
+    height: 100vh;
+    width:  90vw;
     background-color: #007CA5;
-    border: solid 2px red;
     .wrapper {
       width: 100%;
       display: flex;
       justify-content: center;
+      position: relative;
       nav {
-        border: solid 2px red;
+        font-family: Playtime;
+        font-size: 1.8em;
         width: 100%;
         display: flex;
         justify-content: space-around;
@@ -25,11 +32,11 @@ body {
         }
       }
       .carousel {
-        width: 95% !important;
+        width: 92%;
+        height: 100%;
+        position: relative;
         .carousel-img{
-          max-width: 1600px;
           min-width: 480px;
-          max-height: 750px;
           min-height: 320px;
           overflow: hidden;
         }
@@ -39,6 +46,12 @@ body {
         font-weight: bolder;
         font-stretch: expanded;
       }
+    }
+    footer {
+      display: flex;
+      justify-content: center;
+      letter-spacing: 1.5px;
+      padding: 10px;
     }
   }
 }
