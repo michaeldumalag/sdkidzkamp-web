@@ -1,11 +1,11 @@
 <div class="wrapper">
   <div class="carousel">
-    <div><%= image_tag("http://www.identeyouth.us/uploads/1/9/0/0/19009993/7975451_orig.jpg", class: 'carousel-img', height: '850px', width: '100%') %></div>
-    <div><%= image_tag("http://www.identeyouth.us/uploads/1/9/0/0/19009993/7562782_orig.jpg", class: 'carousel-img', height: '850px', width: '100%') %></div>
-    <div><%= image_tag("http://www.identeyouth.us/uploads/1/9/0/0/19009993/8145888_orig.jpg", class: 'carousel-img', height: '850px', width: '100%') %></div>
-    <div><%= image_tag("http://www.identeyouth.us/uploads/1/9/0/0/19009993/5135923_orig.jpg", class: 'carousel-img', height: '850px', width: '100%') %></div>
-    <div><%= image_tag("http://www.identeyouth.us/uploads/1/9/0/0/19009993/8987085_orig.jpg", class: 'carousel-img', height: '850px', width: '100%') %></div>
-    <div><%= image_tag("https://i.redd.it/507u49i00l5y.jpg", class: 'carousel-img', height: '850px', width: '100%') %></div>
+    <div><%= image_tag("http://www.identeyouth.us/uploads/1/9/0/0/19009993/7975451_orig.jpg", class: 'carousel-img', width: '100%') %></div>
+    <div><%= image_tag("http://www.identeyouth.us/uploads/1/9/0/0/19009993/7562782_orig.jpg", class: 'carousel-img', width: '100%') %></div>
+    <div><%= image_tag("http://www.identeyouth.us/uploads/1/9/0/0/19009993/8145888_orig.jpg", class: 'carousel-img', width: '100%') %></div>
+    <div><%= image_tag("http://www.identeyouth.us/uploads/1/9/0/0/19009993/5135923_orig.jpg", class: 'carousel-img', width: '100%') %></div>
+    <div><%= image_tag("http://www.identeyouth.us/uploads/1/9/0/0/19009993/8987085_orig.jpg", class: 'carousel-img', width: '100%') %></div>
+    <div><%= image_tag("https://i.redd.it/507u49i00l5y.jpg", class: 'carousel-img', width: '100%') %></div>
   </div>
 </div>
 <!-- <div class="wrapper">
@@ -25,5 +25,7 @@ $(document).ready(function(){
     //fade: true,
     //cssEase: 'linear',
   });
+  $('.container').css({ height: $(window).innerHeight() });
+  $('.carousel-img').css({ height: $(window).innerHeight() * 0.7 });
 });
 </script>

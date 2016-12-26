@@ -12,11 +12,15 @@
     <div class="container">
       <div class="wrapper">
         <nav>
-          <a>Home</a>
-          <a>About Us</a>
+          <%= link_to root_path do %>
+            <strong>Home</strong>
+          <% end %>
+          <%= link_to "aboutus" do %>
+            <strong>About Us</strong>
+          <% end %>
           <%= image_tag("logo.png", id: "logo") %>
-          <a>Forms</a>
-          <a>Contact Us</a>
+          <a><strong>Forms</strong></a>
+          <a><strong>Contact Us</strong></a>
         </nav>
       </div>
 
