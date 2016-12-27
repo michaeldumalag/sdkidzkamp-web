@@ -12,13 +12,13 @@
     <div id="social-media">
       <div id="top-diag"></div>
       <%= link_to "https://www.facebook.com/kidzkamp" do %>
-        <%= image_tag("facebook.png") %>
+      <%= image_tag("facebook.png") %>
       <% end %>
       <%= link_to "http://twitter.com/kidzkamp" do %>
-        <%= image_tag("twitter.png") %>
+      <%= image_tag("twitter.png") %>
       <% end %>
       <%= link_to "http://youtube.com/kidzkamp" do %>
-        <%= image_tag("youtube.png") %>
+      <%= image_tag("youtube.png") %>
       <% end %>
       <div id="bot-diag"></div>
     </div>
@@ -26,26 +26,28 @@
       <div class="wrapper">
         <nav>
           <%= link_to root_path do %>
-            <strong>Home</strong>
+          <strong>Home</strong>
           <% end %>
           <%= link_to "about_us" do %>
-            <strong>About Us</strong>
+          <strong>About Us</strong>
           <% end %>
           <%= link_to root_path do %>
-            <%= image_tag("logo.png", id: "logo") %>
+          <%= image_tag("logo.png", id: "logo") %>
           <% end %>
           <%= link_to "forms" do %>
-            <strong>Forms</strong>
+          <strong>Forms</strong>
           <% end %>
           <%= link_to "contact_us" do %>
-            <strong>Contact Us</strong>
+          <strong>Contact Us</strong>
           <% end %>
         </nav>
       </div>
 
       <%= yield %>
       <footer>
-        Copyright  <i class="fa fa-copyright" aria-hidden="true"></i>  2017, Doyle Park Kidz Kamp
+        Copyright
+        <i class="fa fa-copyright" aria-hidden="true"></i>
+        2017, Doyle Park Kidz Kamp
       </footer>
     </div>
   </body>

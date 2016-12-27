@@ -5,10 +5,10 @@
   font-family: Playtime;
   src: url("Playtime.otf") format("opentype");
 }
-
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
-strong, h1 {
+h1,
+strong {
   color: black;
 }
 
@@ -23,6 +23,7 @@ strong, h1 {
   right: 0;
   top: 15%;
   border-radius: 10px;
+
   #top-diag {
     border-radius: 10px;
     background-color: #F1E20C;
@@ -33,6 +34,7 @@ strong, h1 {
     right: -28px;
     transform: rotate(-20deg);
   }
+
   #bot-diag {
     border-radius: 10px;
     background-color: #F1E20C;
@@ -52,16 +54,19 @@ body {
   color: #1E1E1E;
   margin: 0;
   overflow: hidden;
+
   .container {
     max-height: 100%;
     height: 100%;
-    width:  85%;
+    width: 85%;
     background-color: #007CA5;
+
     .wrapper {
       width: 100%;
       display: flex;
       justify-content: center;
       position: relative;
+
       nav {
         font-family: Playtime;
         font-size: 1.8em;
@@ -69,31 +74,37 @@ body {
         display: flex;
         justify-content: space-around;
         align-items: center;
+
         a {
           text-decoration: none;
         }
+
         #logo {
           width: 500px;
           height: 150px;
         }
       }
+
       .carousel {
         width: 80%;
         height: 100%;
         position: relative;
         border: 5px solid black;
-        .carousel-img{
+
+        .carousel-img {
           min-width: 480px;
           min-height: 320px;
           overflow: hidden;
         }
       }
+
       #join-fun {
         font-size: 3em;
         font-weight: bolder;
         font-stretch: expanded;
       }
     }
+
     footer {
       display: flex;
       justify-content: center;
@@ -107,14 +118,17 @@ body {
   border: 5px solid black;
   background-color: white;
   width: 90%;
+
   .title {
     display: flex;
     justify-content: center;
   }
+
   .paragraph {
     padding: 0.8em;
     line-height: 1.7;
   }
+
   .about-us-pic {
     float: right;
   }
@@ -124,13 +138,16 @@ body {
   border: 5px solid black;
   background-color: white;
   width: 90%;
+
   .title {
     display: flex;
     justify-content: center;
   }
+
   .forms-pic {
     float: right;
   }
+
   ul {
     display: inline-block;
     li {
