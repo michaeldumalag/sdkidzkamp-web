@@ -16,6 +16,7 @@ class PagesController < ApplicationController
   end
 
   def contact
+    # TO DO: Setup Action Mailer
     puts params[:name]
     puts params[:email]
     puts params[:subject]
