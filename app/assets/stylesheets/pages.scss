@@ -12,6 +12,39 @@ strong, h1 {
   color: black;
 }
 
+#social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em;
+  height: 130px;
+  background-color: #F1E20C;
+  position: absolute;
+  right: 0;
+  top: 15%;
+  border-radius: 10px;
+  #top-diag {
+    border-radius: 10px;
+    background-color: #F1E20C;
+    z-index: -1;
+    padding: 40px;
+    position: absolute;
+    top: -14px;
+    right: -28px;
+    transform: rotate(-20deg);
+  }
+  #bot-diag {
+    border-radius: 10px;
+    background-color: #F1E20C;
+    z-index: -1;
+    padding: 40px;
+    position: absolute;
+    bottom: -13px;
+    right: -27px;
+    transform: rotate(20deg);
+  }
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -45,7 +78,7 @@ body {
         }
       }
       .carousel {
-        width: 85%;
+        width: 80%;
         height: 100%;
         position: relative;
         border: 5px solid black;
@@ -71,10 +104,18 @@ body {
 }
 
 #about-us {
-
-  .wrapper {
-    .paragraph {
-
-    }
+  border: 5px solid black;
+  background-color: white;
+  width: 90%;
+  .title {
+    display: flex;
+    justify-content: center;
+  }
+  .paragraph {
+    padding: 0.8em;
+    line-height: 1.7;
+  }
+  .about-us-pic {
+    float: right;
   }
 }

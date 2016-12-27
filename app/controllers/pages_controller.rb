@@ -6,4 +6,8 @@ class PagesController < ApplicationController
   def about_us
     render 'about_us'
   end
+
+  def forms
+    render 'forms'
+  end
 end

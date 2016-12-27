@@ -15,17 +15,16 @@
 </div> -->
 
 <script>
-$(document).ready(function(){
+$(document).ready(function() {
   $('.carousel').slick({
     autoplay: true,
     autoplaySpeed: 2000,
     speed: 650,
     dots: true,
     mobileFirst: true,
-    //fade: true,
-    //cssEase: 'linear',
+    fade: true,
+    cssEase: 'linear',
   });
-  $('.container').css({ height: $(window).innerHeight() });
   $('.carousel-img').css({ height: $(window).innerHeight() * 0.7 });
 });
 </script>
