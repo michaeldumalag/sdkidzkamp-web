@@ -23,7 +23,7 @@ strong {
   right: 0;
   top: 15%;
   border-radius: 10px;
-
+  z-index: 10;
   #top-diag {
     border-radius: 10px;
     background-color: #F1E20C;
@@ -34,7 +34,6 @@ strong {
     right: -28px;
     transform: rotate(-20deg);
   }
-
   #bot-diag {
     border-radius: 10px;
     background-color: #F1E20C;
@@ -54,19 +53,16 @@ body {
   color: #1E1E1E;
   margin: 0;
   overflow: hidden;
-
   .container {
     max-height: 100%;
     height: 100%;
     width: 85%;
     background-color: #007CA5;
-
     .wrapper {
       width: 100%;
       display: flex;
       justify-content: center;
       position: relative;
-
       nav {
         font-family: Playtime;
         font-size: 1.8em;
@@ -74,37 +70,31 @@ body {
         display: flex;
         justify-content: space-around;
         align-items: center;
-
         a {
           text-decoration: none;
         }
-
         #logo {
           width: 500px;
           height: 150px;
         }
       }
-
       .carousel {
         width: 80%;
         height: 100%;
         position: relative;
         border: 5px solid black;
-
         .carousel-img {
           min-width: 480px;
           min-height: 320px;
           overflow: hidden;
         }
       }
-
       #join-fun {
         font-size: 3em;
         font-weight: bolder;
         font-stretch: expanded;
       }
     }
-
     footer {
       display: flex;
       justify-content: center;
@@ -118,19 +108,17 @@ body {
   border: 5px solid black;
   background-color: white;
   width: 90%;
-
   .title {
     display: flex;
     justify-content: center;
   }
-
   .paragraph {
     padding: 0.8em;
     line-height: 1.7;
   }
-
   .about-us-pic {
     float: right;
+    padding: 1em;
   }
 }
 
@@ -138,20 +126,37 @@ body {
   border: 5px solid black;
   background-color: white;
   width: 90%;
-
   .title {
     display: flex;
     justify-content: center;
   }
-
   .forms-pic {
     float: right;
   }
-
   ul {
     display: inline-block;
     li {
       padding: 1em;
+    }
+  }
+}
+
+#contact-us {
+  border: 5px solid black;
+  background-color: white;
+  width: 90%;
+  .title {
+    display: flex;
+    justify-content: center;
+  }
+  #email-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    form {
+      .input {
+        width: 25em;
+      }
     }
   }
 }

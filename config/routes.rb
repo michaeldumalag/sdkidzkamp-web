@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get "about_us" => "pages#about_us"
   get "forms" => "pages#forms"
   get "contact_us" => "pages#contact_us"
+  post "contact_us" => "pages#contact"
 end

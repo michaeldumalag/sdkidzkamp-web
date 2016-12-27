@@ -14,4 +14,12 @@ class PagesController < ApplicationController
   def contact_us
     render 'contact_us'
   end
+
+  def contact
+    puts params[:name]
+    puts params[:email]
+    puts params[:subject]
+    puts params[:message]
+    redirect_to '/contact_us'
+  end
 end
