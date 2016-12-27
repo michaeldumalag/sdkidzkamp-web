@@ -28,12 +28,18 @@
           <%= link_to root_path do %>
             <strong>Home</strong>
           <% end %>
-          <%= link_to "aboutus" do %>
+          <%= link_to "about_us" do %>
             <strong>About Us</strong>
           <% end %>
-          <%= image_tag("logo.png", id: "logo") %>
-          <a><strong>Forms</strong></a>
-          <a><strong>Contact Us</strong></a>
+          <%= link_to root_path do %>
+            <%= image_tag("logo.png", id: "logo") %>
+          <% end %>
+          <%= link_to "forms" do %>
+            <strong>Forms</strong>
+          <% end %>
+          <%= link_to "contact_us" do %>
+            <strong>Contact Us</strong>
+          <% end %>
         </nav>
       </div>
 

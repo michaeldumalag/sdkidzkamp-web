@@ -10,4 +10,8 @@ class PagesController < ApplicationController
   def forms
     render 'forms'
   end
+
+  def contact_us
+    render 'contact_us'
+  end
 end
