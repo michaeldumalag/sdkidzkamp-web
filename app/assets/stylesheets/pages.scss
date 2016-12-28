@@ -70,6 +70,9 @@ body {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        strong:hover {
+          color: #F1E20C;
+        }
         a {
           text-decoration: none;
         }
