@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @font-face {
   font-family: Playtime;
-  src: url(asset_path("Playtime.otf")) format("opentype");
+  src: font-url("Playtime.otf") format("opentype");
 }
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
