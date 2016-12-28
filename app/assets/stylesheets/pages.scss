@@ -53,11 +53,11 @@ body {
   color: #1E1E1E;
   margin: 0;
   overflow: hidden;
+  background-color: #007CA5;
   .container {
     max-height: 100%;
     height: 100%;
     width: 85%;
-    background-color: #007CA5;
     .wrapper {
       width: 100%;
       display: flex;
@@ -104,14 +104,15 @@ body {
   }
 }
 
+.title {
+  display: flex;
+  justify-content: center;
+}
+
 #about-us {
   border: 5px solid black;
   background-color: white;
   width: 90%;
-  .title {
-    display: flex;
-    justify-content: center;
-  }
   .paragraph {
     padding: 0.8em;
     line-height: 1.7;
@@ -126,10 +127,6 @@ body {
   border: 5px solid black;
   background-color: white;
   width: 90%;
-  .title {
-    display: flex;
-    justify-content: center;
-  }
   .forms-pic {
     float: right;
   }
@@ -145,10 +142,6 @@ body {
   border: 5px solid black;
   background-color: white;
   width: 90%;
-  .title {
-    display: flex;
-    justify-content: center;
-  }
   #email-form {
     display: flex;
     justify-content: space-between;
